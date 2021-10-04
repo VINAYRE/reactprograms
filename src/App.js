@@ -9,11 +9,8 @@ class App extends React.Component{
     render(){
     return(
         <>
-       
-
-
-       
-        <One/>
+        <h1>hello</h1>
+  <One/>
         
         </>
     )
