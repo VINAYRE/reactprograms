@@ -1,19 +1,13 @@
-import React from "react";
+import React from 'react'
+import Epm from './EmpData/Epm'
 
- 
-
-
-import One from './props/One';
-
-class App extends React.Component{
-    render(){
-    return(
+function App() {
+    return (
         <>
-        <h1>hello</h1>
-  <One/>
-        
+            <h1>vinay</h1>
+            <Epm/>
         </>
     )
 }
-}
-export default App;
+
+export default App
