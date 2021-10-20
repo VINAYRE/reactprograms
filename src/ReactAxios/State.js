@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-class Bootstrap extends Component {
+class State extends Component {
     state={message:"Welcome to "}
     gmHandler=()=>{
         this.setState({message:"Good Mornig"})
@@ -36,4 +36,4 @@ class Bootstrap extends Component {
     }
 }
 
-export default Bootstrap
+export default State
