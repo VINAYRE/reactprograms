@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 class Counter extends Component {
-    state={Qty:5}
+    state={Qty:1}
     incrementHandler=()=>{
         this.setState({
             Qty:this.state.Qty+1
@@ -14,7 +14,7 @@ class Counter extends Component {
     render() {
         return (
             <div>
-               
+                <h1>{this.state.Qty}</h1>
                <button type="button" className="btn btn-primary" onClick={this.incrementHandler}>INC</button>
                 <span><h1>product Qty: {this.state.Qty}</h1></span>
                 <button type="button" className="btn btn-dark"  onClick={ this.decrementHandler}>Dec</button>
